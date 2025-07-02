@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Lz's Blog
-subtitle: '分享知识，共同提升'
-description: '日拱一卒，功不唐捐'
+title: LZ's Blog
+subtitle: '日拱一卒，功不唐捐'
+description: '分享知识，共同提升'
 keywords:
 author: Li Zheng
 language: zh-CN
@@ -29,6 +29,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - "*.min.js"
+  - "*.min.css"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -45,6 +47,7 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -96,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: keep
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

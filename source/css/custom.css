@@ -1,0 +1,8 @@
+:root {
+  --header-height: 60px;
+  --post-author-avatar: none;
+  --post-create-datetime: none;
+  --first-screen-icon-color-light: #cc11ff;
+  --first-screen-icon-color-dark: #cc11ff;
+  /* --post-update-datetime: none; */
+}
