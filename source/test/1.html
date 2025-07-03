@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <div class="description">
+      <div class="desc-item">
+        <span class="desc">打印机打字效果展示~~~</span
+        ><span class="cursor">｜</span>
+      </div>
+      <div class="desc-item">
+        <span class="desc">学习新思想，争做新青年！</span
+        ><span class="cursor">｜</span>
+      </div>
+    </div>
+  </body>
+  <script>
+    const initTypewriter = () => {
+      const descBox = document.querySelector(" .description");
+      if (descBox) {
+        descBox.style.opacity = "0";
+
+        setTimeout(() => {
+          descBox.style.opacity = "1";
+          const descItemList = descBox.querySelectorAll(".desc-item");
+
+          descItemList.forEach((descItem) => {
+            const desc = descItem.querySelector(".desc");
+            const cursor = descItem.querySelector(".cursor");
+            const text = desc.innerHTML;
+
+            desc.innerHTML = "";
+            let charIndex = 0;
+
+            const typewriter = () => {
+              if (charIndex < text.length) {
+                desc.textContent += text[charIndex];
+                charIndex++;
+                setTimeout(typewriter, 100);
+              } else {
+                cursor.style.display = "none";
+              }
+            };
+
+            if (text) typewriter();
+          });
+        }, 300);
+      }
+    };
+    initTypewriter();
+  </script>
+  <style type="text/css">
+    .description {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    .desc-item {
+      margin-bottom: 1em;
+    }
+  </style>
+</html>

@@ -1,0 +1,46 @@
+- category: AI 网站
+
+- name: ChatGPT
+  link: https://chat.openai.com/
+  description: OpenAI 旗下 AI 聊天对话工具
+  image: https://icon.bqb.cool?url=https://chat.openai.com/
+
+- name: 豆包
+  link: https://www.doubao.com/
+  description: 字节豆包
+  image: https://icon.bqb.cool?url=https://www.doubao.com/
+
+- name: deepseek
+  link: https://www.deepseek.com/
+  description: deepseek-深度求索
+  image: https://icon.bqb.cool?url=https://www.deepseek.com/
+
+- name: 通义千问
+  link: https://tongyi.aliyun.com/qianwen
+  description: 阿里巴巴 旗下 AI 聊天对话工具
+  image: https://icon.bqb.cool?url=https://tongyi.aliyun.com/qianwen
+
+- category: 官方文档
+
+- name: Vue
+  link: https://cn.vuejs.org
+  description: Vue 官方文档
+  image: https://icon.bqb.cool?url=https://cn.vuejs.org
+
+- name: Element
+  link: https://element.eleme.cn/#/zh-CN/component/layout
+  description: Element 官方文档
+  image: https://icon.bqb.cool?url=https://element.eleme.cn
+
+
+- category: 好用工具
+
+- name: ProcessOn
+  link: https://www.processon.com
+  description: 在线画图工具ProcessOn
+  image: https://icon.bqb.cool?url=https://www.processon.com
+
+- name: pdf24
+  link: https://tools.pdf24.org/zh/
+  description: pdf在线处理
+  image: https://icon.bqb.cool?url=https://tools.pdf24.org/
